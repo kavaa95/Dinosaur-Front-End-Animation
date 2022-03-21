@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+body{
+	overflow-x: hidden;
+
+}
+h5{
+	text-transform: uppercase;
+	
+}
+.card-text{
+	text-align: justify;
+}
+.fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.short_animation {
+    position: relative;
+    display: block;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-image: url(../images/forest_fire2.jpg);
+    height: 63vw;
+    background-color: rgba(31,18,25,1.00);
+	
+	
+}
+
+.my_img1{
+    position: absolute;
+    width: 29%;
+    top: 30%;
+    left: 57%;
+    animation: trex 10s infinite;
+    background-image: url(../url);
+    
+}
+
+@keyframes trex{
+	100%{
+		transform: scale(1);
+	}
+	
+	50%{
+		transform: scale(1.17);
+	}
+	
+	0%{
+		transform: scale(1);
+	}
+}
+.my_img2{
+    position: absolute;
+    top: 28vw;
+    width: 40vw;
+	
+}
+
+.my_img3{
+    position: absolute;
+    background-repeat: repeat-x;
+    right: 76vw;
+    animation: bird 10s linear infinite;
+    top: -4vh;
+}
+
+@keyframes bird{
+	100%{
+		transform: translateX(80vw);
+		 opacity: 0; 
+	}
+	
+	
+}
+
+
+.my_img4{
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 6vw;
+    width: 40%;
+    left: 82vw;
+    animation: bird2 10s linear infinite;
+}
+
+@keyframes bird2{
+	100%{
+		transform: translateX(-80vw);
+		 opacity: 0; 
+		 
+		
+	}
+
+}
+
+/* end of the animation*/
+
+.mytext{
+    position: relative;
+    color: whitesmoke;
+    width: 20%;
+    right: -8vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 7vw;
+    padding-top: 7%;
+	font-family: 'Roboto Slab', serif;
+	
+    
+}
+.text_rotation{
+    position: relative;
+    -webkit-transform: rotate(-90deg);
+    margin-right: 43%;
+    right: 11%;
+}
+.dino_info{
+	position: relative;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg,  rgba(75,73,84,1.00) 0%, rgba(31,18,25,1.00) 55%);
+    text-align: center;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+	color: aliceblue;
+	
+	
+}
+.container_dino_info p:last-of-type{
+padding-bottom: 10%;
+		
+}
+
+.container_dino_info h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+	font-size: 3.5vw;
+	
+       
+}
+.container_dino_info p:first-of-type {
+    padding-top: 5%;
+}
+.container_dino_info p{
+    font-size: 1.5vw;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+	
+	
+}
+.my_video{
+    position: relative;
+  
+	
+	
+    padding-right: 3%;
+   padding-top:10%;
+	border-style: hidden;
+	
+}
+video{
+	
+ width: 100%;
+  height: auto;	
+	
+}
+
+.card{
+    padding-top: 2%;
+    padding-bottom: 8%;
+    margin-top: 4%;
+    margin-bottom: 20%;
+	transform: skewY(15deg);
+}
+
+.gallery_container{
+    transform: skewY(-15deg);
+    position: relative;
+    z-index: -1;
+    padding-top: 15%;
+    margin-top: -15%;
+}
+.containe_edit{
+   	font-size: 2vw;
+    padding-top: 8%;	
+    padding-bottom: 18%;	
+	 transform: skewY(15deg);
+}
+.mybutton{
+	
+	margin-bottom: 3%;
+	
+}
+
+.footer{
+	position: relative;    
+    text-align: center;
+    font-family: alfa-slab-one;
+    padding:10%;
+    background-color: black;
+	color: white;
+  
+}
+.myb {
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Untitled Document</title>
+	  <link href="../css/styles.css" rel="stylesheet" type="text/css">
+	<!-- TemplateEndEditable -->
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+	
+	  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <script>var __adobewebfontsappname__="dreamweaver"</script>
+  <script src="http://use.edgefonts.net/alfa-slab-one:n4:default.js" type="text/javascript"></script>
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  </head>
+  <body>
+  	<!-- body code goes here -->
+
+	  <!-- nav start -->
+	  
+	   <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+    <div class="container">
+      <div class="name_logo"> <a class="navbar-brand" href="../index.html">
+        ALEX KAVANAGH</a></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse color_text" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+			<li class="nav-item">
+            <a class="nav-link" href="INFO.html">DINO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="REVIEW.html">FEEDBACK</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+	  
+	  
+	  <!-- end nav -->
+	  
+	  
+	  <!-- animation beginnnig-->
+	  <!-- TemplateBeginEditable name="body_part1" -->
+	 
+	  <section class="short_animation">
+		  
+		<div class="fire">
+		  
+		  </div> 
+	  
+	  <div class="my_img1">
+	    <img src="../images/TRex1-removebg-preview.png" alt="" width="500" height="500" class="img-fluid"/> </div>
+		  
+		  	  <div class="my_img2">
+          <img src="../images/5994d307a0baa992281c3e817c91141a6d970160-removebg-preview.png" alt="" width="667" height="375" class="img-fluid"/> </div>
+		  
+		   <div class="my_img3">
+	       
+			   
+        <img src="../images/bird2-right-removebg-preview.png" alt="" width="590" height="300" class="img-fluid"/> </div>
+		  
+	    <div class="my_img4">
+          <img src="../images/bird2-removebg-preview.png" width="275" height="183" alt=""/></div>
+		  
+		<div class="mytext">
+         <p>EXTINCTION OF <div class="text_rotation">THE</div> DINOSAURS</p>
+		  
+		  </div>   
+		  
+  </section>
+	  
+	<section class=" dino_info ">
+	  <div class="container_dino_info">
+	  <div class="row">
+	    <div class="col-xl-12">
+	      <h1> Dinosaur extinction: </h1>
+	      <h1>Asteroid hit with force of 10 billion atomic bombs and deposited ‘hundreds of feet’ of material in hours, new research says </h1>
+	    </div>
+      </div>
+		<div class="row">
+	    <div class="col-xl-6 col-md-6 col-sm-12">
+	      <p> Sixty-six million years ago, life on our planet was going on just as it had on any other day – enormous reptiles dominated the landscape. Herbivorous behemoths up to 40 metres long co-mingled with bi-pedal carnivorous titans, seas teemed with fanged leviathans and the skies were navigated by leathery-winged creatures larger than any birds in history.</p>
+	      <p> But in moments, after 180 million years of prosperity, this extraordinary abundance of life was all but obliterated. </p>
+	      <p>The asteroid which wiped out the dinosaurs hit the Yucatan peninsula in Mexico with the power of 10 billion atomic bombs of the size used in the Second World War. The impact set alight vast wildfires stretching thousands of miles, triggered towering tsunamis and blasted so much sulphur into the atmosphere it blocked the sun, causing the catastrophic global cooling that ultimately doomed the dinosaurs.</p>
+	    </div>
+			
+		 <div class="col-xl-6 col-md-6 col-sm-12 my_video">
+           
+			 <video controls>
+			 <source src="../video/How Dinosaurs Went Extinct!.mp4">
+			 </video>
+			 
+			 
+         </div>
+        </div>
+			
+	  </div>
+    </section>
+	  <!-- TemplateEndEditable -->
+	 
+	<section class="footer">
+	<div class="container-fluid">
+	  <div class="row">
+		  <div class="col-xl-12">&copy;alexkavanagh</div>
+	  </div>
+
+		</div>
+	</section>
+	  
+	  
+	  
+	  
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../js/popper.min.js"></script> 
+	<script src="../js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>

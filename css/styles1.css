@@ -1,0 +1,104 @@
+nav{
+	background-color:black;
+	
+}
+
+body{
+	background-color: white;
+	overflow-x: hidden;
+}
+
+
+p{
+	font-size:2vw; 
+	
+}
+  
+h1{
+	font-size:4vw; 
+	
+}
+    
+.footer{
+    
+    text-align: center;
+    font-family: alfa-slab-one;
+   
+    background-color: black;
+    color: white;
+  
+}
+.container-fluid{
+	text-align: justify;
+}
+
+
+.alltext{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+
+
+
+.dino1 {
+    position: fixed;
+    z-index: -1;
+    margin-left: 50%;
+	height: 40vw;
+}
+.dino1::after {
+    position: relative;
+   
+}
+.dino2 {
+    background-color: whitesmoke;
+    z-index: 3;
+    background-image: url(../images/talarurus-ankylosaurus-euoplocephalus-dinosaur-tyrannosaurus-crocodile-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 97% 0%;
+}
+
+.dino3{
+    background-color: white;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 97% 0%;
+    background-image: url(../images/TRex1-removebg-preview.png);	
+}
+
+.footer{
+    z-index: 1;
+    text-align: center;
+    font-family: alfa-slab-one;
+    padding: 45px;
+    background-color: black;
+	color: white;
+  
+}
+
+
+.lastsection{
+	
+	background: rgb(76,184,196);
+background: linear-gradient(90deg, rgba(76,184,196,1) 33%, rgba(60,211,173,1) 84%);;
+
+}
+.lastsection1{
+background: rgb(255,81,47);
+background: linear-gradient(90deg, rgba(255,81,47,1) 16%, rgba(240,152,25,1) 98%);
+}
+
+@media (max-width: 768px){
+p{
+	font-size:3vw; 
+	
+}
+	
+	
+}
+
+.last {
+}
